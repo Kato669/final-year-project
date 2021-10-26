@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!--==================================== Bootstrap CSS library ======================================-->
+    <link rel="stylesheet" href=
+"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity=
+"sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+ <!--============================================awesome library================================================-->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ <!-- ===========================JavaScript library ==============================-->
+    <!--========================== jQuery library ==========================================-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity=
+"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous">
+    </script>
+ 
+    <!--======================= JavaScript library ========================-->
+    <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity=
+"sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous">
+    </script>
+ 
+    <!-- ==========================Latest compiled JavaScript library ================-->
+    <script src=
+"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity=
+"sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="buyer.css">
+    <script src="js/jquery-1.3.2.min.js"></script>
+    <script src="js/example.js"></script>
+    
+</head>
+<body>
+    <!--=================================links===================================-->
+    <div class="header-area">
+      <div class="main-menu">
+        <nav class="navbar fixed-top navbar-dark bg-danger navbar-expand-lg">
+          <!--<a class="navbar-brand" href="#"><img src="img/di.jfif" alt="" srcset=""></a>-->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <div class="mr-auto"></div>
+            <ul class="navbar-nav">
+              <li class="nav-item ">
+                <a class="nav-link" href="revision.html">home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  market
+                </a>
+                <ul class="dropdown-menu ">
+                  <li><a class="dropdown-item" href="register.html">farmers</a></li>
+                  <li><a class="dropdown-item" href="buyer.html">buyers</a></li>
+                
+    
+    
+    
+                </ul>
+                
+              </li>
+              <!--another dropdown*/-->
+              <li class="nav-item ">
+                <a class="nav-link" href="banana.html">information </a>
+              </li>
+              <!--another dropdown*/-->
+             
+              <li class="nav-item ">
+                <a class="nav-link" href="about_us.html">about us </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+            
+      </div>
+    </div>
+    <br><br><br><br><br>
+    <!--==================================end of links=====================================-->
+    <!--============================================uganda============================-->
+    <nav class="navbar fixed-bottom navbar-dark bg-secondary">
+      <marquee behavior="" direction="left"><p>1. practice seasonal soli rotation for better quality     2. plant early , plant effectively 3 . know your yield potention</p></marquee>
+    </nav>
+    <!--============================================end uganda============================-->
+    <!--==========================start the body========================-->
+    
+      <div class="signup-form text-center">
+          <form action="register.php" method="POST" name="form1">
+          <!--<h2>Sign Up</h2>-->
+          <p>Please fill in this form </p>
+          <hr>
+              <div class="form-group">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text">
+                  <span class="fa fa-user"></span>
+                </span>                    
+              </div>
+              <input type="text" class="form-control" name="Fullname" placeholder="FullName" required="required" onkeyup="digi(this)">
+            </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">
+                      <i class="fa fa-paper-plane"></i>
+                    </span>                    
+                  </div>
+                  <input type="email" class="form-control" name="Email" placeholder="Email Address" >
+                </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">
+                          <i class="fa fa-phone"></i>
+                        </span>                    
+                      </div>
+                      <input type="text" class="form-control" name="phoneNumber" onkeyup="names(this)" placeholder="phoneNumber" required  >
+                    </div>
+                      </div>
+                      <!--================================check box============================-->
+                      <div class="form-group">
+                        
+                        <select class="custom-select mr-sm-2" id="inlineFormCustomSelect" name="district">
+                          <option selected disabled>Choose a district of residence</option>
+                          <option value="arua">arua</option>
+                          <option value="koboko">koboko</option>
+                          <option value="adjumani">adjumani</option>
+                          <option value="yumbe">yumbe</option>
+                          <option value="madi">madi</option>
+                          <option value="nebbi">nebbi</option>
+                        </select>
+                      
+                      </div>
+                      
+                    <!--===================================gadaffi form=======================================-->
+                    <div class="form-group">
+                      <div id="page-wrap">
+                        <div id="customer">
+                        </div>
+                        
+                        <table id="items">
+                        
+                          <tr>
+                              <th>CROPS</th>
+                              <th>UNIT OF MEASUREMENT</th>
+                              <th>QUANTITY</th>
+                              <th>PRICE PER UNIT</th>
+                              <th>PRICE</th>
+                          </tr>
+                          
+                          <tr class="item-row">
+                              <td class="item-name"><div class="delete-wpr"> <select class="custom-select mr-sm-2" id="crop" name="crop">
+                                <option selected disabled>which crop do you grow?</option>
+                                <option value="cassava">cassava</option>
+                                <option value="sweet potato">sweet potato</option>
+                                <option value="simsim">simsim</option>
+                                <option value="groundnuts">groundnuts</option>
+                                <option value="maize">maize</option>
+                                <option value="beans">beans</option>
+                              </select><a class="delete" href="javascript:;" title="Remove row">*</a></div></td>
+                              <td class="description"><input type="text" ></td>
+                              <td><input type="text" class="cost" placeholder="QUANTITY YOU HAVE" onkeyup="names(this)"> </td>
+                              <td><input type="text" class="qty" onkeyup="names(this)"></td>
+                              <td><span class="price">0</span></td>
+                          </tr>
+                    
+                    
+                          <tr class="item-row">
+                              <td class="item-name"><div class="delete-wpr"> <select class="custom-select mr-sm-2" id="crop" name="crop">
+                                <option selected disabled>which crop do you grow?</option>
+                                <option value="cassava">cassava</option>
+                                <option value="sweet potato">sweet potato</option>
+                                <option value="simsim">simsim</option>
+                                <option value="groundnuts">groundnuts</option>
+                                <option value="maize">maize</option>
+                                <option value="beans">beans</option>
+                              </select><a class="delete" href="javascript:;" title="Remove row">*</a></div></td>
+                              <td class="description"><input type="text" ></td>
+                              <td><input type="text" class="cost" placeholder="QUANTITY YOU HAVE" onkeyup="names(this)"></td>
+                              <td><input type="text" class="qty" onkeyup="names(this)"></td>
+                              <td><span class="price">0 </span></td>
+                          </tr>
+                    
+                        
+                          <tr id="hiderow">
+                            <td colspan="5"><a id="addrow" href="javascript:;" title="Add a row">ADD ROW</a></td>
+                          </tr>
+                          
+                          <tr>
+                              <td colspan="2" class="blank"> </td>
+                              <td colspan="2" class="total-line">TOTAL PRICE: </td>
+                              <td class="total-value"><div id="subtotal">0</div></td>
+                          </tr>
+                          
+                        
+                        </table>
+                        
+                        
+                      
+                      </div>
+                    
+                    </div>
+                  
+                    <!--===================================gadaffi form=======================================-->
+
+
+                      
+                      <div class="form-group">
+                        <label for="exampleFormControlTextarea1"><strong style="color: black !important;">leave your comment below!!!</strong></label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="enter comment here!!!" name="comment"></textarea>
+                      </div>
+                      
+                      
+                        <tr class="item-row">
+                          <td><input type="reset" value="clear" name="" id="" class="btn btn-info"></td>
+                          <td><input type="submit" value="submit" name="" id="" class="btn btn-info"></td>
+                          
+                        </tr>
+          </form>
+      </div>
+    <!--====================================end body================-->
+    <!--==============================start script=======================================-->
+    <script>
+    
+        $('.dropdown-menu a.dropdown-toggle').on('click', function(e) {
+                if (!$(this).next().hasClass('show')) {
+                  $(this).parents('.dropdown-menu').first().find('.show').removeClass('show');
+                }
+                var $subMenu = $(this).next('.dropdown-menu');
+                $subMenu.toggleClass('show');
+              
+              
+                $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function(e) {
+                  $('.dropdown-submenu .show').removeClass('show');
+                });
+              
+              
+                return false;
+              }); 
+
+              /*no entering a number*/
+              function digi(input){
+                let name1 = /[^a-z + " "]/gi;
+                input.value = input.value.replace(name1,"")
+              }
+              /*============================================= entering a number====================*/
+              function names(input){
+                let name2 = /[^0-9 + " "]/gi;
+                input.value = input.value.replace(name2,"")
+              }
+                  
+      </script>
+
+    <!--===============================end script====================================-->
+</body>
+</html>

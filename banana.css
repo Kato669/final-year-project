@@ -1,0 +1,194 @@
+.my-nav{
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  }
+  
+  .carousel-item {
+    height: 100vh;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  body{
+    background-color: white;
+    
+  }
+  
+  .dropdown-submenu {
+    position: relative;
+  }
+  
+  .dropdown-submenu a::after {
+    transform: rotate(-90deg);
+    position: absolute;
+    right: 6px;
+    top: .8em;
+  }
+  
+  .dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-left: .1rem;
+    margin-right: .1rem;
+  }
+
+  /*new styling*/
+  .header-area .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
+  }
+  .header-area .main-menu .navbar{
+    padding: 0.2rem 14rem;
+  }
+  .header-area .main-menu .nav-item .nav-link{
+    font-family: 'Roboto',cursive;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px 50px;
+    color: black;
+    text-align: center;
+    display: block;
+  }
+  .header-area .main-menu .navbar-nav .active a{
+    color: white;
+    background-clip: text;
+    width: 100%;
+    margin: auto;
+    border-radius: 20px;
+    height: 100%; 
+  }
+  .header-area .main-menu .navbar-nav a:hover{
+    
+    background-clip: text;
+    
+    text-align: center;
+    display: block;
+
+    
+  }
+    ul li ul li{
+      text-transform: uppercase;
+      text-align: center;
+      color: black;
+      border: none;
+      font-size: large;
+      font-weight: bold;
+
+    }
+    ul li:hover ul li{
+      color: black;
+      font-weight: bold;
+    }
+
+
+  /*====================styling the body=========================*/
+  .col{
+      background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/people.webp);
+     height: 300px;
+     background-size: cover;
+     background-position: center;
+     align-items: center;
+     justify-content: center;
+     display: flex;
+     
+  }
+  .col h1{
+      color: #ffffff;
+      font-size: 45px;
+      -webkit-box-reflect: below 1px linear-gradient(transparent, rgb(0,0,0 )) ;
+      
+      
+      font-weight: bold;
+      letter-spacing: 8px;
+      transition-delay: 2s;
+      transition-duration: 3s;
+      
+      position: relative;
+      animation: text1 3s 1;
+
+  }
+  /*@keyframes text1{
+    0%{
+      color: black;
+      margin-bottom: -40px;
+    }
+    30%{
+      letter-spacing: 45px;
+      margin-bottom: -40px;
+      background-color: aquamarine;
+      transform:  rotate(360deg);
+     
+    }
+    85%{
+      letter-spacing: 8px;
+      margin-bottom: -40px;
+    }
+  }*/
+  /*.container-fluid{
+      background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/bg.jpg);
+      background-attachment: fixed;
+  }*/
+  a{
+      text-decoration: none;
+      color: black;
+      text-transform: uppercase;
+      
+
+  }
+  a:hover{
+      color: red;
+      text-decoration: none;
+      font-style: italic;
+      font-weight: bold;
+  }
+  .card-footer{
+      border-right-color: firebrick;
+  }
+  .card{
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.53);
+  }
+  .card-footer{
+    background-color: orange;
+    transition: all 2s ease-in-out 3;
+  }
+  .card-footer:hover{
+    background-color: orangered;
+    word-spacing: 3px;
+  }
+   /*======================================styling marquee======================================*/
+ 
+  marquee p{
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+  }
+  h1{
+    color: black;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-style: italic;
+  }
+  /*===================================================images=============================*/
+  img{
+    background-color: grey;
+    
+  }
+  /*p:hover{
+    border-radius: 0%;
+    border: 2px solid red;
+   
+  }*/
+  
+  /*===================================================images=============================*/
+  /*===================================================images=============================*/
+  /*===================================================images=============================*/
+  /*===================================================images=============================*/
+  /*===================================================images=============================*/
+  /*===================================================images=============================*/
+  /*==
+/*==============================end styling the links============================================*/

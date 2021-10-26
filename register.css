@@ -1,0 +1,177 @@
+.my-nav{
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  }
+  
+  .carousel-item {
+    height: 100vh;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  body{
+    background-color: black;
+    
+  }
+  
+  .dropdown-submenu {
+    position: relative;
+  }
+  
+  .dropdown-submenu a::after {
+    transform: rotate(-90deg);
+    position: absolute;
+    right: 6px;
+    top: .8em;
+  }
+  
+  .dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-left: .1rem;
+    margin-right: .1rem;
+  }
+
+  /*new styling*/
+  .header-area .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
+  }
+  .header-area .main-menu .navbar{
+    padding: 0.2rem 14rem;
+  }
+  .header-area .main-menu .nav-item .nav-link{
+    font-family: 'Roboto',cursive;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px 50px;
+    color: black;
+    text-align: center;
+    display: block;
+  }
+  .header-area .main-menu .navbar-nav .active a{
+    color: black;
+    background-clip: text;
+    width: 100%;
+    margin: auto;
+    border-radius: 20px;
+    height: 100%; 
+  }
+  .header-area .main-menu .navbar-nav a:hover{
+    
+    background-clip: text;
+    
+    text-align: center;
+    display: block;
+
+    
+  }
+    ul li ul li{
+      text-transform: uppercase;
+      text-align: center;
+      color: black;
+      border: none;
+      font-size: large;
+      font-weight: bold;
+
+    }
+    ul li:hover ul li{
+      color: black;
+      font-weight: bold;
+    }
+
+    /*=======================*/
+    body {
+      color: #fff;
+      background: #19aa8d;
+      font-family: 'Roboto', sans-serif;
+    }
+    .form-control {
+      font-size: 15px;
+    }
+    .form-control, .form-control:focus, .input-group-text {
+      border-color: #e1e1e1;
+    }
+    .form-control, .btn {        
+      border-radius: 3px;
+    }
+    .signup-form {
+      width: 400px;
+      margin: 0 auto;
+      padding: 30px 0;		
+    }
+    .signup-form form {
+      color: #999;
+      border-radius: 10px;
+      margin-bottom: 15px;
+      background: #fff;
+      box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.3);
+      padding: 30px;
+    }
+    .signup-form h2 {
+      color: #333;
+      font-weight: bold;
+      margin-top: 0;
+    }
+    .signup-form hr {
+      margin: 0 -30px 20px;
+    }
+    .signup-form .form-group {
+      margin-bottom: 20px;
+    }
+    .signup-form label {
+      font-weight: normal;
+      font-size: 15px;
+    }
+    .signup-form .form-control {
+      min-height: 38px;
+      box-shadow: none !important;
+    }	
+    .signup-form .input-group-addon {
+      max-width: 42px;
+      text-align: center;
+    }	
+    .signup-form .btn, .signup-form .btn:active {        
+      font-size: 16px;
+      font-weight: bold;
+      background: #19aa8d !important;
+      border: none;
+      min-width: 140px;
+    }
+    .signup-form .btn:hover, .signup-form .btn:focus {
+      background: #179b81 !important;
+    }
+    .signup-form a {
+      color: #fff;	
+      text-decoration: underline;
+    }
+    .signup-form a:hover {
+      text-decoration: none;
+    }
+    .signup-form form a {
+      color: #19aa8d;
+      text-decoration: none;
+    }	
+    .signup-form form a:hover {
+      text-decoration: underline;
+    }
+    .signup-form .fa {
+      font-size: 21px;
+    }
+    .signup-form .fa-paper-plane {
+      font-size: 18px;
+    }
+     /*======================================styling marquee======================================*/
+ 
+  marquee p{
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+  }
+  /*==
+    
+    /*===================*/

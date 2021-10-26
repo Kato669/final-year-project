@@ -1,0 +1,21 @@
+.header-area .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
+    
+
+}
+.header-area .main-menu .navbar{
+    padding: 1rem 10rem;
+    
+}
+.header-area .main-menu .nav-item .nav-link{
+    font-family: "Roboto",cursive;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1.7rem;
+    color: black;
+}
+img{
+    border-radius: 50%;
+    height: 40px;
+    
+}
